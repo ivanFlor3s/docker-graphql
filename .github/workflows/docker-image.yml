@@ -30,7 +30,7 @@ jobs:
         docker build -t ifloresawg/docker-graphql:0.0.2 .
     - name: Push Docker image
       run: |
-        docker push ifloresawg/docker-graphql:0.0.2 .
+        docker push ifloresawg/docker-graphql:0.0.2
       
     
     #- name: Build the Docker image
